@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.container header{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+header span{
+    color: rgb(16, 167, 226);
+}
+header i{
+    font-size: 40px;
+    color: rgb(16, 167, 226);
+}
+.container form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+form input{
+    padding: 10px;
+}
+form div label{
+    margin-right: 40px;
+}
+button{
+    padding: 10px 0px;
+    background-color: rgb(4, 164, 228);
+    border: none;
+    color: white;
+}
+button:hover{
+    cursor: pointer;
+}
+table{
+    text-align: center;
+    border-collapse: collapse;
+}
+thead tr th{
+    padding: 10px;
+    border-top: 1px solid skyblue;
+    border-bottom: 1px solid skyblue;
+}
+td{
+    padding: 10px;
+}
