@@ -22,5 +22,9 @@ form.addEventListener("submit", (event) => {
     tr.appendChild(td2);
     tr.appendChild(td3);
     tableBody.appendChild(tr);
+    titleName.value="";
+    authorName.value="";
+    colorName.value="";
+    checkedInput.checked=false;
 });
 
